@@ -1,0 +1,16 @@
+Package: dlib
+Type: Package
+Title: Access to the dlib C++ library from R
+Version: 0.0.1
+Date: 2015-04-23
+Author: Oliver Keyes
+Maintainer: Oliver Keyes <ironholds@gmail.com>
+Description: dlib is a C++ library by Davis E. King that contains (amongst many other
+             things) fast and freely licensed image processing and machine learning
+             functionality. This package is a wrapper around that library that allows
+             R programmers to consistently and conveniently incorporate dllib into
+             their work, in a similar fashion to the 'BH' package's inclusion of
+             the Boost library.
+License: Boost Software License 1.0
+LinkingTo: Rcpp
+Imports: Rcpp
