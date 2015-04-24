@@ -8,7 +8,7 @@ Maintainer: Oliver Keyes <ironholds@gmail.com>
 Description: dlib is a C++ library by Davis E. King that contains (amongst many other
              things) fast and freely licensed image processing and machine learning
              functionality. This package is a wrapper around that library that allows
-             R programmers to consistently and conveniently incorporate dllib into
+             R programmers to consistently and conveniently incorporate dlib into
              their work, in a similar fashion to the 'BH' package's inclusion of
              the Boost library.
 License: BSL-1.0
