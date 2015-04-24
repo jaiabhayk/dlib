@@ -6,5 +6,6 @@
 #' @useDynLib dlib
 #' @docType package
 #' @aliases dlib dlib-package
+#' @useDynLib dlib
 #' @importFrom Rcpp sourceCpp
 NULL
