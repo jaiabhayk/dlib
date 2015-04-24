@@ -7,7 +7,7 @@
 \title{R integration with dlib}
 \description{
 This package makes the dlib C++ library - which contains both generic tools for
-             software development, and a BSL-licensed machine learning library - accessible
+             software development, and BSL-licensed machine learning functionality - accessible
              from R, so that it can be conveniently included in other packages.
 }
 
