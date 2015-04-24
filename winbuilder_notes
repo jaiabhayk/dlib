@@ -1,0 +1,84 @@
+* using log directory 'd:/RCompile/CRANguest/R-devel/dlib.Rcheck'
+* using R Under development (unstable) (2015-04-23 r68254)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* checking for file 'dlib/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'dlib' version '0.1.0'
+* checking CRAN incoming feasibility ... NOTE
+Maintainer: 'Oliver Keyes <ironholds@gmail.com>'
+New submission
+
+Possibly mis-spelled words in DESCRIPTION:
+  dlib (3:22, 8:14)
+  dllib (11:73)
+
+The Title field should be in title case, current version then in title case:
+'Access to the dlib C++ library from R'
+'Access to the Dlib C++ Library from R'
+
+The Description field should not start with the package name,
+  'This package' or similar.
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking whether package 'dlib' can be installed ... OK
+* checking installed package size ... NOTE
+  installed size is 17.0Mb
+  sub-directories of 1Mb or more:
+    include  15.7Mb
+    libs      1.2Mb
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* loading checks for arch 'i386'
+** checking whether the package can be loaded ... OK
+** checking whether the package can be loaded with stated dependencies ... OK
+** checking whether the package can be unloaded cleanly ... OK
+** checking whether the namespace can be loaded with stated dependencies ... OK
+** checking whether the namespace can be unloaded cleanly ... OK
+** checking loading without being on the library search path ... OK
+** checking use of S3 registration ... OK
+* loading checks for arch 'x64'
+** checking whether the package can be loaded ... OK
+** checking whether the package can be loaded with stated dependencies ... OK
+** checking whether the package can be unloaded cleanly ... OK
+** checking whether the namespace can be loaded with stated dependencies ... OK
+** checking whether the namespace can be unloaded cleanly ... OK
+** checking loading without being on the library search path ... OK
+** checking use of S3 registration ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... NOTE
+Found the following Makefile(s) without a final LF:
+  src/Makevars
+Some 'make' programs ignore lines not ending in LF.
+* checking compilation flags in Makevars ... OK
+* checking for GNU extensions in Makefiles ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... OK
+* checking examples ... NONE
+* checking PDF version of manual ... OK
+* DONE
+Status: 3 NOTEs
